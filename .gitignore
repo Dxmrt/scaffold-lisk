@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# eslint
+.eslintcache
+
+# misc
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# cli
+dist
+
+# Env files (API keys, private keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.crt
+
+# Hardhat config with private key
+packages/hardhat/hardhat.config.ts
